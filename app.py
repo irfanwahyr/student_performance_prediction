@@ -19,7 +19,7 @@ def predict_cluster(data):
 
 st.title('Prediksi Cluster Mahasiswa')
 
-age = st.number_input('Umur saat mendaftar', min_value=0, max_value=100, value=13)
+age = st.number_input('Umur saat mendaftar', min_value=0, max_value=100, value=0)
 gender = st.selectbox('Jenis Kelamin', [0, 1], format_func=lambda x: 'Laki-laki' if x == 1 else 'Perempuan')
 status = st.selectbox('Status', [0, 1, 2], format_func=lambda x: 'Graduate' if x == 0 else ('Dropout' if x == 1 else 'Enrolled'))
 
