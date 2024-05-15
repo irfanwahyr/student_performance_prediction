@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-loaded_kmeans = joblib.load('submission_2/kmeans_model.joblib')
+loaded_kmeans = joblib.load('kmeans_model.joblib')
 
 def convert_to_cluster(cluster):
     if cluster in [0]:
