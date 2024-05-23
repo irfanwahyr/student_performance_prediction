@@ -14,7 +14,7 @@ def predict_outcome(predict):
     else:
         return 'Mahasiswa diprediksi akan Dropout'
 
-st.title('Prediksi Cluster Mahasiswa')
+st.title('Prediksi Mahasiswa Berdasarkan Kondisi Finansial')
 
 input_data = {
     'memiliki Hutang?': st.radio('Debtor', options=['Tidak', 'Ya']),
