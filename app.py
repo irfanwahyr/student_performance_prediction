@@ -19,7 +19,7 @@ st.title('Prediksi Mahasiswa Berdasarkan Kondisi Finansial')
 input_data = {
     'memiliki Hutang?': st.radio('Debtor', options=['Tidak', 'Ya']),
     'Biaya Kuliah terkini?': st.radio('Biaya Kuliah Terkini', options=['Tidak', 'Ya']),
-    'Tingkat Pengangguran': st.number_input('Tingkat Pengangguran', min_value=0.0, value=50.0),
+    'Tingkat Pengangguran': st.number_input('Tingkat Pengangguran', min_value=0.0, value=0.0),
     'Inflation_rate': st.number_input('Inflation Rate', value=0.0),
     'GDP': st.number_input('GDP', value=0.0)
 }
